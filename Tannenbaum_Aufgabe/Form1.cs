@@ -28,9 +28,7 @@ namespace Tannenbaum_Aufgabe
             }
         }
 
-        
-
-       
+ 
         private void TanneZeichnenButton_Click_1(object sender, EventArgs e)
         {
             if (int.TryParse(StammbreiteTextBox.Text, out int stammbreite) &&
