@@ -9,25 +9,6 @@ namespace Tannenbaum_Aufgabe
         {
             InitializeComponent();
         }
-
-        private void TanneZeichnenButton_Click(object sender, EventArgs e)
-        {
-            if (int.TryParse(StammbreiteTextBox.Text, out int stammbreite) &&
-                int.TryParse(StammhoeheTextBox.Text, out int stammhoehe) && 
-                int.TryParse(KronenhoeheTextBox.Text, out int kronenhoehe))
-            {
-                Tanne m = new Tanne(stammhoehe, stammbreite, kronenhoehe);
-                string tanneZeichnung = m.Zeichnen();
-                Ausgabe.AppendText(tanneZeichnung);
-
-
-            }
-            else
-            {
-                MessageBox.Show("Ungültige Eingabe. Bitte geben Sie ganze Zahlen ein.");
-            }
-        }
-
  
         private void TanneZeichnenButton_Click_1(object sender, EventArgs e)
         {

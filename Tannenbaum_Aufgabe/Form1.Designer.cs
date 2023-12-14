@@ -56,7 +56,6 @@
             this.label3.Size = new System.Drawing.Size(96, 20);
             this.label3.TabIndex = 1;
             this.label3.Text = "Kronenhöhe";
-         
             // 
             // label2
             // 
@@ -103,10 +102,10 @@
             // 
             this.Ausgabe.Location = new System.Drawing.Point(30, 227);
             this.Ausgabe.Name = "Ausgabe";
+            this.Ausgabe.ReadOnly = true;
             this.Ausgabe.Size = new System.Drawing.Size(585, 668);
             this.Ausgabe.TabIndex = 7;
             this.Ausgabe.Text = "";
-        
             // 
             // Form1
             // 
